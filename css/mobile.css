@@ -1,0 +1,27 @@
+body{
+    max-width: 768px;
+}
+
+#containerone{
+    flex: none;
+    text-align: center;
+    padding-top: 2%;
+}
+.one{
+    padding-left: 15px;
+}
+.illustration{
+    height: 20rem;
+    width: 15rem;
+    position: relative;
+    border: solid 1rem;
+    margin-left: 5rem
+}
+.logo{
+    padding-left: 50%;
+}
+@media (max-width: 360px) {
+  .second{
+      text-align: center !important;
+  }  
+}
